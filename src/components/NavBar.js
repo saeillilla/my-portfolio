@@ -35,10 +35,16 @@ export default function NavBar(){
                     About Me!
                 </NavLink>
             </nav>
-            <div>
-                <SocialIcon url="https://linkedin.com/in/jaketrent" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35,width:35}} />
-                <SocialIcon url="" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35,width:35}} />
-                <SocialIcon url="" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35,width:35}} />
+            <div className="inline-flex py-3 px-3 my-6">
+                <SocialIcon 
+                url="https://www.linkedin.com/in/saeillillamy/" 
+                className="mr-4" target="_blank" fgColor="#fff" style={{ height:35,width:35}} />
+                <SocialIcon 
+                url="https://github.com/saeillilla" 
+                className="mr-4" target="_blank" fgColor="#fff" style={{ height:35,width:35}} />
+                <SocialIcon 
+                url="https://www.youtube.com/channel/UCI4QsbGPxOmjZAhS5YH2LIA" 
+                className="mr-4" target="_blank" fgColor="#fff" style={{ height:35,width:35}} />
               
 
             </div>
